@@ -2,7 +2,9 @@ import os, sys
 
 try:
 
-    __import__("paid_enc.").main()
+    __import__("paid").main()
+            
+
 
 except Exception as e:
 
